@@ -72,6 +72,7 @@ span{
 p{
     font-size: 13px;
     letter-spacing: 0.5px;
+    margin-top: 20px;
 }
 body{
     background-color: #080808;
@@ -110,7 +111,7 @@ h1{
 .sub-titel{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #ffffff;
 }
 @media only screen and (max-width: 600px){
     .sub-titel{
@@ -125,4 +126,60 @@ h1{
     .about-col-2{
         font-size: 14px;
     }
+}
+i{
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 20px;
+}
+i:hover{
+    transition: 1s;
+    transform: scale(1);
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+
+}
+#tiktok{
+    margin-left: 20px;
+}
+#instaqram{
+    margin-left: 20px;
+}
+#threads{
+    margin-left: 20px;
+}
+#NameSpan{
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 64px;
+}
+#DateSpan{
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+#EmailSpan{
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 67px;
+}
+#AddressSpan{
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 53px;
+}
+#name{
+    margin-top: 20px;
+    font-size: small;
+}
+#date{
+    margin-top: 20px;
+    font-size: small;
+}
+#email{
+    margin-top: 20px;
+    font-size: small;
+}
+#Address{
+    margin-top: 20px;
+    font-size: small;
 }
